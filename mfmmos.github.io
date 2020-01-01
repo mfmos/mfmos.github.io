@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            h1 {
+                color:rgb(209, 68, 16);
+               
+                font-size:37px;
+                text-shadow:3px 5px rgb(87, 11, 87);
+                margin-top:72px;
+                
+            } 
+            #meet{color:rgb(227, 151, 20);
+                 border: 4px double rgb(56, 173, 150);
+                 
+                padding:19px;
+            }
+            h2{color:rgb(37, 119, 219);} 
+            h3{ color:rgb(24, 145, 77);}
+            .xyz{ 
+                font-family:"candara",san-herif;
+        
+            }
+            #abc{ text-align:center;
+                line-height:39px;
+                font-family:"helvetica",sans-herif;
+                color:rgb(97, 1, 1);
+            }
+            
+            p   { font-size:17px;
+                
+            }
+        </style>
+    </head>
+    <div id="abc">
+    <body>
+        
+        <h1 class="xyz">You're invited!</h1>
+        <h2 class="xyz" id="meet">Meet and Greet Party!</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/Nuvola_filesystems_folder_home.png">
+        <h2 class="xyz"><em>Haagbeukhof 19 has its new resident!!</em></h2>
+        
+        <p>I've just moved in your neighborhood. this party is for meeting with you. I would be very happy, if you join the party:) </p>
+        <h3 class="xyz">Info</h3>
+        <p>
+            <strong>Date:</strong> 12.12.12<br>
+            <strong>Time:</strong> 15:30<br>
+            <strong>Adress: </strong>Haagbeukhof 19, Papendrecht<br><a href="https://www.google.com/maps/place/Haagbeukhof+19,+3355+AG+Papendrecht/@51.8345221,4.6977267,17z/data=!3m1!4b1!4m5!3m4!1s0x47c42967b02b9a15:0x796cb4be1715fe69!8m2!3d51.8345221!4d4.6999154"> To show on Google Map</a> <br>
+            
+            
+            <strong>P.S:</strong> Please let me know wheter you will join or not <strong>until</strong> 10.12.12
+        </p>
+        
+    </body>
+    </div>
+</html>
