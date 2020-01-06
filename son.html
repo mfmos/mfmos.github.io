@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+
+
+        body {
+            background-image: url(https://www.transparenttextures.com/patterns/concrete-wall-2.png);
+            background-color: #5d7a60;
+            padding: 0;
+            margin: 0;
+            @media screen: all;
+        }
+
+        h1,
+        h2 {
+            font-family: 'Luckiest Guy', cursive;
+            font-size: 60px;
+            text-align: center;
+            color: #E3D081;
+            font-weight: lighter;
+        }
+
+        h1:hover {
+            font-size: 80px;
+            transition: 1s ease;
+            margin: 27.92px;   }
+
+        #bar li {
+            display: inline;
+            /*padding-inline-start: 4vmax;*/
+            font-size: 20px;
+            font-weight: bold;
+            color: gainsboro;
+            padding: 5px 20px;
+        }
+
+        li:hover {
+            background-color: rgba(83, 76, 175, 0.3);
+            border: dashed;
+            border-radius: 20%;
+            transition: 0.5s ease;
+           
+        }
+
+        #foto {
+            padding: 0;
+            height: 440px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        #mainpic {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            bottom: -40%;
+        }
+
+
+        .videoo {
+            text-align: center;
+            font-size: 30px;
+            border: thick double 4px;
+
+
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 0px;
+
+        }
+
+        .a {
+            width: 170px;
+            border-radius: 10%;
+        }
+
+        #types {
+            display: flex;
+        }
+
+        .abc {
+            flex: 25%;
+            padding: 5px;
+            box-align: center;
+            margin-left: 70px;
+            
+        }
+        
+
+        #bar {
+            border: 2px groove lightcoral;
+            border-style: double;
+            padding: 3px;
+            background-color: salmon;
+            text-align: center;
+            margin-bottom: 2px;
+        }
+
+        .stickybar {
+            position: sticky;
+            top: 5px;
+
+
+        }
+
+        a:link {
+            color: gainsboro;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: gainsboro;
+            text-decoration: none;
+
+        }
+
+        p {
+            font-size: 20px;
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+            color: #F1F7ED;
+            margin: 20px;
+            line-height: 30px;
+            padding: 1mm;
+        }
+
+        /*@media only screen and (max-width: 600px) {
+            h1 {
+                color: red;
+            }
+        } 
+
+        @media only screen and  (min-width: 600px) and (max-width: 1200px) {
+            h1 {
+                color: yellow;
+            }
+        }*/
+
+        @media only screen and (min-width: 1500px) {
+            #mainpic {
+                bottom: -40%;
+            }
+
+            #foto {
+                height: 600px;
+            }
+        }
+
+        #watch {
+            text-align: center;
+            color: #B20326;
+            font-weight: bolder;
+            text-decoration: underline;
+
+        }
+        #old{
+            float: left;
+            width: 28%;
+            margin-right: 15px;
+            box-shadow: 8px 8px black;
+
+        }
+    </style>
+</head>
+
+<body>
+    <h1>AMAZING PEDICABS</h1>
+    <div class="stickybar" style="z-index: 4;">
+        <ul id="bar">
+            <li><a href="#what"> WHAT IS PEDICAB?</a></li>
+            <li><a href="#his"> HISTORY</a></li>
+            <li><a href="#typ">TYPES OF PEDICABS</a> </li>
+            <li><a href="#best"> THE BEST PLACES TO TAKE A RIDE</a></li>
+            <li><a href="#gal"> GALLERY</a></li>
+        </ul>
+    </div>
+    <div id="foto">
+        <img id="mainpic" src="https://live.staticflickr.com/3781/11347119255_cb2315cfa9_h.jpg">
+
+    </div>
+    <h2 id="what"><br>WHAT IS PEDICAB?</h2>
+    <p> When we think of bicycles, we tend to think of the two-wheel bikes or maybe tricycles (if you have kids), but
+        there are more types of pedal propelled modes of transportation than that! One of the popular ones, particularly
+        in many areas of Asia and in large urban centers, is the pedicab. You may not know it by that name, but they are
+        also known as rickshaws or bicycle taxis. They are traditionally
+        set up rather like a very large tricycle with a wheel in the front, two in the back, and then a covered cab or
+        half a covered cab for the passengers to sit in
+        (the driver may also be covered too, depending on the style of the pedicab).Pedicabs used to be fairly popular,
+        but they have dwindled in use due to things like safety concerns, price gouging, complaints from taxi drivers,
+        and the fact that they aren’t that fast. They are commonly used in Asian countries, but also in some large
+        European and North American cities. Such as Amsterdam, Newyork, Washington DC, etc. Nowadays, they are almost
+        always used for tourists and for something novel.
+        However, they also have benefits for the environment and they can be faster if there is a high level of
+        traffic. </p>
+    <p id="watch"><span>Watch the video to see Conan's pedicab experience</span></p>
+    <div class="videoo">
+        <iframe width="900" height="506" src="https://www.youtube.com/embed/7qcHrCaGtto" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <h2 id="his"><br>HISTORY</h2>
+    <img id="old" src="https://i.pinimg.com/564x/50/2f/bf/502fbf6eee3f3e760ce49d3e8f9bab8b.jpg" alt="old pedicab">
+    <p>The pedicab traces its roots to the cycle-rickshaw that was borrowed from Japan, replacing the impractical
+        man-pulled rickshaw.They were developed in
+        Japan around 1870 and then spread to surrounding nations such as China and India. Original rickshaws were pulled
+        by humans who would run them around (quite literally). They are largely retired now, but there are still a few
+        places where you can ride on one, namely in Calcutta and Hong Kong, London, Dublin, and L.A. In most of these
+        places, they are tourist attractions. The human pulled rickshaw first became popular in Japan during the 1870s,
+        though no one quite knows who invented it. The legend goes that it was invented in Japan (the name is based on
+        the word ‘jinrikisha’ which means ‘human powered vehicle’) by a European missionary who needed a way to carry
+        his invalid wife around. By the start of the 20th century, the rickshaw was in India and China and it became
+        very popular.<br>
+
+        The cycle rickshaw came about in the 1880s. They are not considered the same as the traditional rickshaw as a
+        traditional one normally pulled by a human, not cycled by one. The first cycle rickshaws were built in the 1880s
+        where they became popular in Singapore and by 1925 they started to outnumber the pulled rickshaw. By the late
+        1980s, a hundred years after invention, there were around 4 million cycle rickshaws in the world. </p>
+    <h2 id="typ"><br>TYPES</h2>
+
+    <div id="types"><br>
+        <div class="abc">
+            <img class="a" id="img1" src="http://www.pedicab.com/wp-content/uploads/classic-pedicab-266x300.jpg"
+                alt="classic pedicab">
+            <p class="pedicabtypes">CLASSIC PEDICAB</p>
+        </div>
+        <div class="abc">
+            <img class="a" src="http://www.pedicab.com/wp-content/uploads/broadway-pedicab-270x300.jpg"
+                alt="broadway pedicab">
+            <p class="pedicabtypes">BROADWAY PEDICAB</p>
+        </div>
+        <div class="abc">
+            <img class="a" src="http://www.pedicab.com/wp-content/uploads/Boardwalkstretched.png"
+                alt="boardwalk pedicab">
+            <p class="pedicabtypes">BROADWALK PEDICAB</p>
+        </div>
+        <div class="abc">
+            <img class="a" src="http://www.pedicab.com/wp-content/uploads/billboard-bike-pedicab-flipped.jpg"
+                alt="billboard pedicab">
+            <p class="pedicabtypes">BILLBOARD PEDICAB</p>
+        </div>
+    </div>
+    <h2 id="best"><br>BEST PLACES TO TAKE A RIDE </h2>
+    <p>A Pedicab, also known as a "bicycle rickshaw", is a tricycle shuttle service or taxi. They were developed in
+        Japan around 1870 and then spread to surrounding nations such as China and India. The early Japanese rickshaws
+        were actually hand pulled and the concept of a pedal rickshaw did not develop until years later. They are very
+        popular tourist attractions in many U.S cities including DC, New York, and Ft. Lauderdale today. Many Pedicab
+        drivers give tours as part of their service hitting many of a particular city's major landmarks.Pedicabs have
+        taken stronger routes in many other nations especially those in Southeast Asia and Australia with over one
+        million Pedicab drivers in Asia alone. In many of the world's nations Pedicabs have been more than for just
+        tourism. They serve as a major mode of 'sustainable' urban transportation relying on just the pedal of the
+        driver's legs. They are especially widespread in developing countries.Some Pedicabs are electric powered, or
+        possess that potential, in order to give driver's legs a rest on busy days. However, this type of cab has been
+        banned in New York City and they also now limit the number of pedicab drivers the city's allowed to have.
+        Although, there are currently around 1000 pedicabs in New York City. The U.S and many nations around the world
+        are attempting to provide adequate regulations for Pedicab drivers and to effectively define their role in
+        transportation infrastructure. Integration and regulation in the current system are some of the struggles facing
+        Pedicabs in modern society.</p>
+
+    <h2 id="gal">GALLERY</h2>
+    
+    <div id="types"><br>
+        <div class="abc">
+            <img class="a" id="img1" src="http://www.pedicab.com/wp-content/uploads/classic-pedicab-266x300.jpg"
+                alt="classic pedicab">
+            <p class="pedicabtypes">CLASSIC PEDICAB</p>
+        </div>
+        <div class="abc">
+            <img class="a" src="http://www.pedicab.com/wp-content/uploads/broadway-pedicab-270x300.jpg"
+                alt="broadway pedicab">
+            <p class="pedicabtypes">BROADWAY PEDICAB</p>
+        </div>
+        <div class="abc">
+            <img class="a" src="http://www.pedicab.com/wp-content/uploads/Boardwalkstretched.png"
+                alt="boardwalk pedicab">
+            <p class="pedicabtypes">BROADWALK PEDICAB</p>
+        </div>
+        <div class="abc">
+            <img class="a" src="http://www.pedicab.com/wp-content/uploads/billboard-bike-pedicab-flipped.jpg"
+                alt="billboard pedicab">
+            <p class="pedicabtypes">BILLBOARD PEDICAB</p>
+        </div>
+    </div>    
+    <p> in modern society.</p>
+    <p>A Pedicab, also known as a "bicycle rickshaw", is a tricycle shuttle service or taxi. They were developed in
+        Japan around 1870 and then spread to surrounding nations such as China and India. The early Japanese rickshaws
+        were actually hand pulled and the concept of a pedal rickshaw did not develop until years later. They are very
+        popular tourist attractions in many U.S cities including DC, New York, and Ft. Lauderdale today. Many Pedicab
+        drivers give tours as part of their service hitting many of a particular city's major landmarks.Pedicabs have
+        taken stronger routes in many other nations especially those in Southeast Asia and Australia with over one
+        million Pedicab drivers in Asia alone. In many of the world's nations Pedicabs have been more than for just
+        tourism. They serve as a major mode of 'sustainable' urban transportation relying on just the pedal of the
+        driver's legs. They are especially widespread in developing countries.Some Pedicabs are electric powered, or
+        possess that potential, in order to give driver's legs a rest on busy days. However, this type of cab has been
+        banned in New York City and they also now limit the number of pedicab drivers the city's allowed to have.
+        Although, there are currently around 1000 pedicabs in New York City. The U.S and many nations around the world
+        are attempting to provide adequate regulations for Pedicab drivers and to effectively define their role in
+        transportation infrastructure. Integration and regulation in the current system are some of the struggles facing
+        Pedicabs in modern society</p>
+
+
+
+
+
+
+</body>
+
+</html>
